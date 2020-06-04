@@ -1,0 +1,137 @@
+.btnperss{
+    background-color: tan;
+    font-weight:500;
+}
+.btnordi{
+    background-color: grey;
+    font-weight:500;
+    color: ghostwhite;
+}
+.btnordi:hover{
+    color: rgba(248, 248, 255, 0.904);
+}
+table thead{
+    text-align: center;
+}
+
+.table-active{
+    background-color:#e6e6e6!important;
+    font-weight: 600;
+}
+.btnperss{
+    font-weight: 600!important;
+}
+.btnpers:hover {
+    background-color: ghostwhite;
+    box-shadow:inset 3px 3px 5px grey;
+    text-shadow: 0 0 10px white;}
+.img-personnel {
+    width:100vw;
+}
+
+.admin div div section article h4 {
+    color:  darkorange!important;
+}
+
+@media (max-width: 1200px){
+    [class="btn btnordi offset-xs-6 offset-md-6 offset-lg-6 col-auto"]{
+        background-color: grey;
+        font-weight:500;
+        right: 5%;
+    }
+}
+@media (max-width: 767px){
+    [class="btn btnordi offset-xs-6 offset-md-6 offset-lg-6 col-auto"]{
+        background-color: grey;
+        font-weight:500;
+        left: 44%;
+    }
+    .img-personnel {
+        width:100vw;
+        margin-left: 20px;
+        display: none;
+    }
+}
+
+@media (max-width: 575px){
+    .titre-liste{
+        font-size: 1.2rem !important;
+    }
+    .table thead {
+        display: none;
+    }
+    .table tr{
+    display: block;
+    margin-bottom: 40px;
+    }
+    .table td {
+    display: block;
+    text-align: right;
+    }
+    .table td:before {
+    content: attr(data-label); /* utilisée afin de récupérer la valeur d'un attribut d'un élément pour l'utiliser dans la feuille de style */
+    float: left;
+    font-weight: bold;
+        }
+    [class="btn btnordi offset-xs-6 offset-md-6 offset-lg-6 col-auto"]{
+        display: none;
+    }
+    [class="text-dark titre-liste text-center py-3 m-0"]{
+        display: none;
+    }
+    .table-active{
+        background-color:#b55500!important;
+    }
+    .table-active td{
+        font-weight: 500;
+        color: ghostwhite;
+        }
+    tbody tr td a .btnpers {
+        font-weight: 500;
+        display: contents;
+        font-size: calc(100% + 1.5rem);
+        color: white;
+        font-family: cursive;
+        text-shadow: 2px 0 1px darkslategrey;
+        transition:all .3s;
+        }
+        tbody tr td .btn:hover {
+            background-color: #eb6d00;
+            box-shadow:inset 3px 3px 5px #b55500;
+            text-shadow: 0 0 10px white;
+        }
+        tbody tr td a:hover {
+            text-decoration:none;
+            color:inherit;
+        }
+    [class="text-dark titre-liste text-center py-3 m-0"]{
+        text-align: center;
+        background-color: #303030;
+        color: ghostwhite!important;
+    }
+    [class="btn btnpers cv"]{
+        font-weight: 500;
+        display: contents;
+        font-size: calc(100% + 1.5rem);
+        color: white;
+        font-family: cursive;
+        text-shadow: 2px 0 1px darkslategrey;
+        transition:all .3s;
+    }
+    [class="btn btnpers sup"]{
+        font-weight: 500;
+        font-size: calc(100% + 1.5rem);
+        color: white;
+        font-family: cursive;
+        text-shadow: 2px 0 1px darkslategrey;
+        transition:all .3s;
+        text-align: center;
+    }
+    .img-personnel {
+        display: none;
+    }
+    @media (max-width: 815px){
+        
+    }
+
+    }
